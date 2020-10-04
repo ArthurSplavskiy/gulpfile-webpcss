@@ -1,0 +1,31 @@
+// include place
+@import "config";
+@import "fonts";
+
+// code place
+body {
+  font-size: 16px;
+  color: red;
+  display: flex;
+}
+
+span {
+  font-size: 20px;
+
+  @media (max-width: 767px) {
+    font-size: 15px;
+  }
+}
+
+div {
+  background: url(../img/ava.png) 0 0 no-repeat;
+  font-size: 30px;
+
+  @media (max-width: 767px) {
+    font-size: 20px;
+  }
+}
+.ava {
+  width: 100px;
+  height: auto;
+}
